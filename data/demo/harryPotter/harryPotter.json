@@ -1,0 +1,516 @@
+{
+    "prompts": {
+        "0": {
+            "speaker": "0",
+            "text": "For six months when I was doing a play, I wore the same jacket every day because I realized that if it looked like I was coming out of the theater in the same jacket and same pair of jeans every night, the paparazzi looked like they were getting photos all from the same night. When you have an opportunity to like annoy the paparazzi or just like win a tiny petty victory over them.",
+            "speaker_ori": "1"
+        },
+        "1": {
+            "speaker": "1",
+            "text": "She gives as good as she gets. You Know. He bangs on the door, she bangs back. And she, you know, and she there's this defiance that, you know, you think I'm going to come and eat dinner with you and I'm your prisoner, I'm your cat. Absolutely not. And it's only when they... And I think that's the other beautiful thing about the love story, is that they form a friendship first. And that gap in the middle where there is this genuine sharing and this real friendship, the love builds out of that.",
+            "speaker_ori": "2"
+        }
+    },
+    "transcript": [
+        {
+            "speaker": "0",
+            "text": "You won't believe this. The director who ultimately helmed the first Harry Potter movie, initially pictured an American actor in the lead role. Considering JK Rowling's insistence on a purely British and Irish cast, that's a fascinating early hurdle, isn't it? Let's dive in.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It really is. It sort of sets the stage for understanding the uh delicate negotiations and creative visions that clashed and ultimately came together to bring this massive book to the screen.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Exactly. And that's what this deep dive is all about. We're pulling back the curtain on the making of Harry Potter and the Philosopher's Stone, the 2001 film that, well, sparked a global obsession. Our main source, our kind of treasure map for this, is the film's Wikipedia page. It's surprisingly detailed actually about the whole creation.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Right. And our goal here is to go beyond just the basic facts you might find there. We want to really unearth the most compelling stories, the pivotal decisions that shape this movie.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "We're talking about, you know, the battle for the rights, the director who almost was, the painstaking process of finding the perfect cast.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "All the cast.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "And the magic behind bringing it all to life. It's quite a story.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "So, where does this whole adventure begin? Well, it turns out producer David Hammond wasn't even looking at Harry Potter initially.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Really?",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah, he had another children's book adaptation in mind, but apparently that project fell through. It was his assistant who then suggested he take a look at Rowling's book.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Talk about a fortunate suggestion. Wow.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Right.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It makes you wonder about all the near misses in Hollywood, doesn't it? That one like casual recommendation basically redirected a massive wave of cultural energy.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Absolutely. And Warner Bruise clearly recognized something special pretty quickly.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Mhm.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "They scooped up the rights to the first four books in 1999 for what was it? A reported 1 million pound.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, about that.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "But Rowling wasn't just handing over the keys to the kingdom as you'd expect.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "No, definitely not. She had some very specific demands.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Her insistence on a strictly British and Irish cast, that was like non-negotiable.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Which wasn't just about the book setting, was it? It seems deeper than that.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "I think so too. It speaks to her understanding of the, well, the cultural nuances, the voices of her characters. And it's interesting, you know, later in the series, when characters from other countries appeared, exceptions were made.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Right. Flordellicore, Victor Krum.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Exactly. Which kind of highlights that the initial demand was very deliberate, very specific to the core story.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "She was also understandably cautious about selling the film rights at all, wanted to keep control, stop them changing her story too much.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "A smart move looking back, especially considering how huge the franchise became.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Totally. Now, here's a GC tidbit. Steven Spielberg, he was actually in the running to direct early on.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Spielberg?",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, it's fascinating. The reasons people give for him declining are interesting too.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Like what?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Well, some reports said he wanted to do it as animation, maybe with Haley Joel Osman voicing Harry.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Wow, animation. That would have been different.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "huge, hugely different. Or maybe he felt it wasn't, you know, challenging enough creatively. That's another reason floated.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "He did apparently say something like it felt like shooting ducks in a barrel. A bit dismissive, maybe.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Perhaps. But Rowling has always said she didn't actually have the power to veto him.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Hmm. Okay. So it wasn't her blocking it necessarily.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It seems not. It suggests the decision was ultimately Warner Bros, maybe weighing Spielberg's vision, whatever it was, against their own plans for the franchise.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And Spielberg himself later said he wanted to spend more time with his family, which is fair enough.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Right. It reminds us that even for the biggest names, personal life plays a part.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "So, after Spielberg passed, the list of potential directors they considered is like a who's who.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Oh, yeah. Terry Gilliam was on there. Apparently, he was Rowling's personal favorite.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Imagine that. A Gilliam Potter film.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It would have been visually wild, I bet. His style, that blend of the mundane and the fantastical.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Hm.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "You can see why she might have liked that.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Who else? Jonathan Demm, Mike Newell, Alan Parker, Brad Silberling. Quiet a list.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "A real mix of styles.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Top.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "But the director's chair eventually went to Chris Columbus.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Known for Home Alone, Mrs. Doubtfire, solid family film credentials.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Exactly. And he really went all in to get the job. Apparently wrote a massive like 130 page director's vision for it.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "130 pages. Okay, that's dedication. What do you think set him apart for the studio?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Well, his track record with successful family films must have been reassuring. Big hits. And that detailed vision probably showed he understood the book and had a clear plan to translate it for a broad audience while still, you know, respecting the source material.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And his vision for the look of the film was quite specific, wasn't it? Like the contrast between the muggle world and the wizarding world.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, he talked about a stark, almost bleak muggle world versus this vibrant, colorful wizarding world. He mentioned drawing inspiration from David Lean, which is interesting.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "David Lean. Wow.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, for scale maybe. And also the color designs of films like Oliver.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "And even the Godfather.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "The Godfather? That's unexpected for Harry Potter.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Well, maybe not literally mobsters, but perhaps in terms of creating atmosphere, visual depth, that kind of richness even in a family film.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "You can sort of see the lean influence in the scale, the classic storytelling feel.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Hm.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "And Oliver, maybe in depicting the kids, the slightly tougher parts of Harry's early life.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Okay, that makes sense. Now, how do you even begin to turn such a beloved detailed book into a screenplay? That job fell to Steve Cloves.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "And he admitted feeling the pressure. I mean, adapting that book with that fan base, huge stakes.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah, you're kidding.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "But he was apparently really insistent on staying true to the Britishness of it all, the characters' personalities, that must have helped.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And his first meeting with Rowling apparently went really well. They bonded because Hermione was their favorite character.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "That's great. And it sounds like that connection was important. Rowling apparently had significant creative input, which Columbus seemed fine with.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "How important was that collaboration, do you think? Between Cloves, Columbus and Rowling?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Oh, vital. That initial connection over Hermione probably showed Rowling he got a key part of her story. Her involvement ensured the film kept the spirit of the books, and Columbus being open to that. Probably a huge reason fans embraced the film.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "The plan was originally for a July 2001 release, wasn't it? But it got pushed back to November.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, that delay just highlights the sheer scale of it all. The visual effects, building those sets, trying to rush it could have really compromised things.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Okay, let's talk casting. This became this legendary search, didn't it? Especially for Harry, Ron and Hermione.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Absolutely. And remember Rowling's rule, British and Irish actors only. So the initial casting director, Suzy Figgis, had a massive job on her hands.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Open casting calls, specific criteria. They really searched far and wide.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, trying to find kids who not only looked right, but could be these characters millions already loved. They had like a three-part audition process.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "But then things got a bit tense. Figgis left the project.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Reportedly, yeah. Apparently over disagreements with Columbus.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Specifically him considering American actors for the leads.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Really? Like who?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Well, the rumors mentioned Haley Joel Osman again, or maybe Jake Lloyd, the kid from Star Wars Episode I.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Wow, an American Harry Potter. That would have caused an uproar.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Oh, definitely. You would have completely changed the feel, undermine the authenticity Rowling wanted. Hard to imagine anyone else now, really. It shows how crucial those early casting calls were.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Thankfully, they stuck to the rule. And the adult cast started coming together perfectly. Alan Rickman as Snape, Richard Harris as Dumbledore.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Just iconic choices. Impossible to imagine anyone else.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Though apparently Tim Roth was initially approached for Snape.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah. And Sean Connery and Christopher Lee were reportedly offered Dumbledore. Patrick Maan too, apparently, but he declined due to health.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Connery is Dumbledore, Lee is Dumbledore, Roth is Snape. It's an alternate movie universe.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Totally. It shows the kind of caliber they were aiming for right from the start though. But Rickman and Harris, just perfect.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And Rowling got her personal top choices for Mcgal and Hagrid. Maggie Smith and Robbie Coltrain.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah. Perfect casting again. And interestingly, Robin Williams, huge star, apparently wanted to play Hagrid.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Really?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, but he was turned down because of the British only rule.",
+            "speaker_ori": "2"
+        }
+    ]
+}

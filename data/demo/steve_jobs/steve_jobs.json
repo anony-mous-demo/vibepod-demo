@@ -1,0 +1,516 @@
+{
+    "prompts": {
+        "0": {
+            "speaker": "0",
+            "text": "architecture is what the software is able to see of the hardware so if I build a chip and a system and a disk drive and some memory all of those things they're just dead hardware until you do something with them and to do something with them you have to have a way to talk to them and so all of these things expose a way to talk to them and that really is the architecture you can think of it as the language of the computer",
+            "speaker_ori": "1"
+        },
+        "1": {
+            "speaker": "1",
+            "text": "every time a new episode is available. So visit us online at lcfamerica.org where you can find more information about the latest in lung cancer research, new treatments, and more. You can also join the conversation with LCFA on Facebook, Twitter, and Instagram.",
+            "speaker_ori": "2"
+        }
+    },
+    "transcript": [
+        {
+            "speaker": "0",
+            "text": "Think about the last time you uh glanced at your phone. That whole experience, the design, it's almost hard now to imagine a world without Steve Jobs's influence.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It really is ubiquitous.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "But today, we're not just, you know, looking at the empire he built, we want to go deeper. Back to the start. The surprising twists in his early life and career. And we're drawing this from, well, primarily his Wikipedia entry, a surprisingly rich source.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It all certainly is, yeah.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Our mission is really to get past the usual story, find those key moments, maybe some aha insights that really formed the person he became.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Absolutely. Because we tend to focus on the, you know, the finished products, the big announcements, but that early stuff, the family background, who he met, the school experiences, that's what really shapes someone. And what's fascinating here is how many seeds of the later Steve Jobs were already there. Sometimes in, well, unexpected ways.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Okay, so let's jump right in. The very beginning. Born in San Francisco in 1955, parents were Joanne Sheble and Abdul Fata Jandali. And even his birth circumstances were uh complicated.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, they really were. Joanne was from a Swiss-German Catholic background, Abdul Fatah was Syrian Muslim, and her father strongly objected to the relationship because of Jandali's faith. Big opposition.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "So that led to the adoption.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Exactly. That strong parental disapproval pushed them towards a closed adoption. It's quite a start having external forces dictate something so fundamental.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And the path led to Paul and Clara Jobs. Paul was a mechanic, Coast Guard vet, Clara, a bookkeeper.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Paul was of German descent. Clara's family was Armenian.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "But it wasn't just a simple handover, was it?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Not at all. Apparently, Joanne, his biological mother, initially refused to sign the papers. She wanted him raised by college graduates, which Paul and Clara weren't. She even tried to get him removed from their care.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Wow. So what changed her mind?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "They promised, they made a commitment to set up a fund for his college education. Only then did she agree.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "A promise that hung over them, I suppose.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "You have to imagine it did. It sets up this expectation right from day one.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And it gets even more complex when you hear about Clara's initial feelings.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Right. She later admitted she was, I think the quote is, too frightened to love him for the first six months. Felt overwhelmed like maybe they'd made a mistake.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "That's tough. Did he know about that?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "He did become aware of it later, yeah.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "But despite that knowledge, he was completely bonded with Paul and Clara. Saw them as his parents. 1,000% is how he put it.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And famously dismissed his biological parents as just a sperm and egg bank.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Exactly. That sense of belonging with his adopted family was incredibly strong. A real anchor for him.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "They also adopted a daughter, Patricia, a couple of years later in 57.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Mhm.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And the family moved first to Mountain View, then Los Altos.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Right into the area that was just starting to bubble up as Silicon Valley.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Almost seems like fate, looking back.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It's a striking coincidence, geographically.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Hmm.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "And Paul Jobs, his dad, seems quite influential in this period. He set up a workbench for Steve in the garage, trying to pass on his love of mechanics.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Steve wasn't hugely into cars though, right?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "No, not car specifically. But he said he deeply admired his father's skill, his ability to build and fix things. That hands-on practical environment.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Must have sunk in somehow. And that house, the one on Christ drive in Los Altos.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "That's the one. The legendary original site, the garage where Apple computer technically began.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Incredible. Okay, so from family, let's look at his school years, which were um not smooth sailing.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Definitely not. Reports of difficulties in class, pushing back against authority, misbehavior, even getting suspended, not your typical student.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Pranks at Monteloma Elementary.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, and what's really telling is his father Paul's reaction. Instead of just blaming Steve, Paul apparently told the school they weren't challenging his son enough.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Huh, that's quite a vote of confidence.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It is. That unwavering belief in Steve's intelligence, even when he was acting out, says a lot about their bond.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "He ended up skipping fifth grade, but then middle school, Crittenden Middle school was tough.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, described as a socially awkward loner. Got bullied quite a bit. Seems like a difficult adjustment.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Very. So much so that by seventh grade, he basically gave his parents an ultimatum.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Right. Move him to a better school district or he just stopped going altogether.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "That's pretty assertive for that age. Shows that strong will was already there.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Absolutely. He knew what he needed, or at least what he didn't want.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And his parents listened. They stretched financially, moved to the Cupertino school district in 67.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "A move that really seems crucial. Different environment, different opportunities.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Like that summer job at HP when he was just 13 after he cold called Bill Hewlett himself.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "That story is amazing. Just picking up the phone, asking the co-founder of HP for parts for frequency counter he was building.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "But sheer audacity.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It shows that directness, that lack of um conventional fear, I guess. It wasn't just about parts, it was connecting with the top, showing initiative.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Which leads us nicely into Homestead High, again, right there in Silicon Valley's orbit. And this is where he meets Bill Fernandez.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Who then introduces him to Steve Wazniak. Was the other key piece of the puzzle.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "The beginning of that partnership.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Exactly. Though school itself was still a bit rocky. He started electronics, but apparently clashed with the teacher. Long hair, rebellious attitude.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Typical teenager stuff, maybe.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Maybe. But his interest drifted. Around mid-1970s, something else caught his attention. Music, literature, Shakespeare, Plato, King Lear, big stuff.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Where did that come from?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Reportedly sparked by a really good AP English class. The teacher apparently looked like Ernest Hemingway, which is a fun detail.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "So he's developing these two sides, the tech interest and this uh humanities literary side.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It's a fascinating mix, electronics and literature. He even talked about it later, you know, the intersection of technology and liberal arts.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Like Edwin Land at Polaroid, he mentioned him.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Right. That synthesis became key to Apple's identity. And his friendships reflected it too. Waz, the engineer, and his girlfriend at the time, Chris Anne Brennan, who was more artistic.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "He'd hang out with Waz up at Berkeley, use the Stanford library, but wasn't joining the electronics club.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "No, he was doing light shows for events instead.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Right. Again that blend of tech and artistry. A classmate described him as kind of brain and kind of hippie.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "But not really fitting into either group, an outsider, an individual. That feels right, doesn't it?",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "It does. Especially in a perhaps more conformist high school setting back then.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "That outsider perspective can be fuel for innovation, for seeing things differently. He was even taking a freshman English class at Stanford while still in high school.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Always pushing boundaries.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Seems like it.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Then we get to the Blue Box story, Wazniak's brilliant, uh, hack, basically.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, based on that Esquire article. A device to make free long-distance calls by mimicking phone company tones.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Wazniak built it for the challenge, the fun of it.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "But it was Jobs who said, \"Hey, we could sell these.\"",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "There's that entrepreneurial spark again.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Instantly saw the business angle. Let's make them, sell them, split the money.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And they did. It was clandestine, illegal, but successful.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Definitely planted a seed. They spent about six months perfecting the design.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And Jobs later said pretty directly that without the blue boxes, there wouldn't have been an Apple.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "That's a huge statement.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Mhmm.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "His reasoning was, it showed them they could take on giant systems, like Ma Bell.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And figure them out, maybe even beat them at their own game.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Right. It proved they could build something, understand a complex system and, well, make it work for them. It cemented that partnership too.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Okay, after high school, September 72, he heads off to Reed College in Oregon.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "And he was adamant about Reed even though it was expensive for his parents.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "That earlier promise they made must have weighed on them.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "You'd think so. At Reed, he connects with Robert Friedland, who was student body president then.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "And his relationship with Chris Ann Brennan was ongoing?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Mhm. And this is where his interest in Eastern mysticism really seems to deepen.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Encountering figures like Timothy Leary, Richard Alpert, Ram Das.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Reading books like Be Here Now, Diet for a Small Planet. A period of intense spiritual and philosophical searching.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah, exploring consciousness, counter culture ideas.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It definitely shaped his worldview.",
+            "speaker_ori": "2"
+        }
+    ]
+}

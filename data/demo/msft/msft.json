@@ -1,0 +1,171 @@
+{
+    "prompts": {
+        "0": {
+            "speaker": "0",
+            "text": "You know, this is the thing that throughout my childhood, I was so lucky, you know, because of my parents and some early friends, school I went to, I had these exposures to computers that were very rare. And so I had, you know, all these thousands of hours of programming experience and great feedback on, okay, how do you do it better from the very best adults?",
+            "speaker_ori": "1"
+        },
+        "1": {
+            "speaker": "1",
+            "text": "Yeah, I've definitely been using AI a ton for the projects that I'm doing outside of work even. So like a bunch of things that it gets used for at work that are hugely useful, but the outside of work ones I think are kind of fun. So like maybe the coolest thing that I've done is I have gotten really into making.",
+            "speaker_ori": "2"
+        },
+        "2": {
+            "speaker": "2",
+            "text": "It's kind of like it's an at-scale consumer property that has already got real escape velocity, right? I go to the app store and I see, you know, it's always like there in the top five. And I say, wow, like that's pretty unbelievable. So they were able to use that early advantage and parlay that into an app advantage. And so in consumer, that could happen in the enterprise again.",
+            "speaker_ori": "3"
+        }
+    },
+    "transcript": [
+        {
+            "speaker": "0",
+            "text": "Great to chat, Kevin, Satya. Uh... I thought it'd be good to take a step back and appreciate the journey Microsoft's been on – you know, where we came from, where we are now, and where we're headed.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "2",
+            "text": "Yeah, absolutely, Bill. It's uh... it really is a remarkable story when you look back. Definitely worth talking through.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "1",
+            "text": "Totally agree. Yeah, always good to get this shared perspective.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Thinking about the very beginning, it uh... it feels like we were laying down some fundamental tracks for the whole tech world. Satya, maybe you could paint a picture of those early days?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "2",
+            "text": "Yeah, happy to, Bill. Well, founded back in 1975 by yourself and Paul, that initial vision was incredibly bold for its time, right? A computer on every desk and in every home, running our software.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "0",
+            "text": "Simpler times!",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "2",
+            "text": "Yeah, in some ways. And, you know, for decades, with DOS then Windows, we really did help shape that whole PC era. Office became, well, the standard everywhere for getting things done. It truly changed how people worked.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah, that foundation was key. But, uh... gosh, the Microsoft of today feels worlds apart, operating on such a different scale. Kevin, how do you see our core strengths playing out right now?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Well Bill, yeah... look, Windows and Microsoft 365 are still incredibly strong, profitable pillars, absolutely. But the energy, the real engine driving us forward now? It's gotta be the cloud. Azure is just a beast.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "2",
+            "text": "Mm-hmm.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "1",
+            "text": "I mean, we're competing effectively at the very top, powering businesses all over the world. It's... yeah, it's foundational to almost everything else we're doing.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "It really is transformative.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "2",
+            "text": "And building right on top of that Azure power, Kevin, is our, uh... huge push into AI. We've really bet big on becoming an AI-first company, and it feels right.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "1",
+            "text": "Definitely.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "2",
+            "text": "You know, the OpenAI partnership and just how fast we're weaving Copilot into everything – Windows, M365, developer tools, security... yeah, that's becoming core to who we are and the value we bring. We're putting intelligence everywhere we can. It's exciting stuff.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "0",
+            "text": "That deep integration, Satya, feels so powerful. Moving beyond just features to, uh... something truly infused in the experience. What else really stands out in our major efforts today, Kevin?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Well, yeah, besides the cloud and AI being everywhere, uh... LinkedIn is performing great, right? It's the place for professionals, and it's getting smarter with AI too, which is cool to see.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "2",
+            "text": "Good point.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "1",
+            "text": "And our Surface line, you know, keeps pushing the envelope on hardware, often giving us the best showcase for our software – especially now with all the Copilot integrations coming online. It's all about making these tools work together better, making people genuinely more productive.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah, connecting those dots is key. So, given all that history and this intense focus now on Cloud and AI... Satya, how would you describe the forward-looking strategy? What are the big bets we're making?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "2",
+            "text": "Bill, I think it really comes down to a few key things that all work together. First, uh... keep leading and innovating in the cloud with Azure, really focusing on what enterprises need – data, security, hybrid, all of it.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "1",
+            "text": "Makes sense.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "2",
+            "text": "Second, and this is really defining this next chapter, is truly leading the AI wave. We want to bring generative AI like Copilot to everyone, make it easy to use, build it right into the workflow... you know, basically be the platform for getting things done with AI.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "0",
+            "text": "The essential AI platform. Yeah.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "2",
+            "text": "And third, just maximizing the power of our whole ecosystem – making M365, Azure, AI, LinkedIn all feel like one seamless, powerful experience that delivers incredible value and, frankly, keeps people wanting to use our stuff.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, totally agree, Satya. That synergy, that connected experience... that's the magic. We've got the Azure foundation, the M365 and Windows tools, the Copilot smarts, the LinkedIn network. It's uh... it's a pretty comprehensive suite for how people work and create today.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "2",
+            "text": "Exactly, Kevin. And, well, we have the scale, the trust from our customers, and the amazing engineering talent to make it happen. The strategy is all about that platform leadership through cloud and AI, really aiming to empower every person and every organization. It's quite an evolution from the PC days, and honestly, it feels like a successful one.",
+            "speaker_ori": "3"
+        },
+        {
+            "speaker": "0",
+            "text": "It truly is amazing to see us navigate this transformation. From that initial PC vision to really aiming to be the intelligent cloud and AI fabric for the world. It says a lot about our ability to learn, adapt, and really lean into the future.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, the pace is just incredible, Bill. It's genuinely exciting to be part of building this.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "2",
+            "text": "Indeed. It puts Microsoft in a fantastic position to keep shaping what's next in technology.",
+            "speaker_ori": "3"
+        }
+    ]
+}

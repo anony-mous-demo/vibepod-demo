@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibePOD Audio Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .images-section {
+            padding: 30px;
+            text-align: center;
+            background: #f8f9fa;
+        }
+
+        .images-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .images-container img {
+            height: 400px;
+            width: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .section-header {
+            background: #e9ecef;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #2d3436;
+            margin: 0;
+        }
+
+        .demos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .demo-item {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .demo-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2d3436;
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 10px;
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            border-radius: 8px;
+        }
+
+        .demo-content {
+            display: flex;
+            gap: 25px;
+            height: 520px;
+        }
+
+        .left-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .transcript-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .transcript-section h3 {
+            color: #2d3436;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #4facfe;
+            padding-bottom: 8px;
+        }
+
+        .transcript-content {
+            flex: 1;
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            overflow-y: auto;
+            max-height: 500px;
+        }
+
+        .transcript-item {
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .speaker-0 {
+            background: #e8f5e8;
+            color: #000;
+        }
+
+        .speaker-1 {
+            background: #f0e8ff;
+            color: #000;
+        }
+
+        .speaker-2 {
+            background: #f5f5f5;
+            color: #000;
+        }
+
+        .speaker-label {
+            font-weight: bold;
+            display: inline;
+        }
+
+        .prompts-section {
+            margin-bottom: 15px;
+        }
+
+        .prompts-section h3 {
+            color: #2d3436;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        .prompts-content {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .prompt-audio {
+            flex: 1;
+            min-width: 150px;
+            padding: 8px;
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+        }
+
+        .prompt-audio h4 {
+            color: #2d3436;
+            margin-bottom: 6px;
+            font-size: 0.85em;
+            text-align: center;
+        }
+
+        .audio-section {
+            margin-bottom: 10px;
+        }
+
+        .audio-section h3 {
+            color: #2d3436;
+            margin-bottom: 8px;
+            font-size: 1em;
+        }
+
+        .vibepod h3 {
+            font-weight: bold;
+        }
+
+        .vibepod h3::before {
+            content: "⭐ ";
+            margin-right: 5px;
+        }
+
+        .audio-player {
+            padding: 10px;
+            border-radius: 6px;
+            margin: 5px 0;
+            background: white;
+            border: 2px solid #e9ecef;
+        }
+
+        .audio-player h4 {
+            color: #2d3436;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+
+        audio {
+            width: 100%;
+            border-radius: 4px;
+            outline: none;
+            height: 30px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .error {
+            background: #ff7675;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        /* 自定义滚动条 */
+        .transcript-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .transcript-content::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        .transcript-content::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            border-radius: 4px;
+        }
+
+        .transcript-content::-webkit-scrollbar-thumb:hover {
+            background: #a8a8a8;
+        }
+
+        @media (max-width: 1200px) {
+            .demos-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .demo-content {
+                flex-direction: column;
+                height: auto;
+            }
+            
+            .transcript-content {
+                max-height: 300px;
+            }
+
+            .prompts-content {
+                flex-direction: column;
+            }
+
+            .prompt-audio {
+                min-width: auto;
+            }
+            
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .images-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .images-container img {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎙️ VibePOD Audio Demo</h1>
+            <p>Compare different audio generation models with interactive transcripts</p>
+        </div>
+
+        <!-- 添加图片部分 -->
+        <div class="images-section">
+            <div class="images-container">
+                <img src="data/image/VibePod-figure-large-3.png" alt="VibePod Figure Large 3">
+                <img src="data/image/vibepod_figure.png" alt="VibePod Figure">
+            </div>
+        </div>
+
+        <!-- Comparison with recent Models 部分 -->
+        <div class="section-header">Comparison with recent Models</div>
+        <div class="demos-grid" id="comparisonDemosGrid">
+            <!-- Comparison demo items will be dynamically generated here -->
+        </div>
+
+        <!-- DEMO of VibePod 部分 -->
+        <div class="section-header">Different Number of Speakers</div>
+        <div class="demos-grid" id="vibepodDemosGrid">
+            <!-- VibePod demo items will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script>
+        // Demo名称到显示标题的映射字典
+        const demoTitleMapping = {
+            'mooncast_0': 'GPT4',
+            'mooncast_1': 'Game theory',
+            'mooncast_2': 'Nobel Prize 2024',
+            'mooncast_3': 'Transformer',
+            'harryPotter': 'HarryPotter',
+            'steve_jobs': 'Steve Jobs',
+            'msft': 'Microsoft',
+            'speech_tokenizer': 'Speech Tokenizer',
+            'bill': 'Bill Gates'
+        };
+
+        // 获取demo的显示标题
+        function getDemoDisplayTitle(demoName) {
+            return demoTitleMapping[demoName] || demoName.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        // VibePod专用的demo列表（只显示VibePod）
+        const vibepodDemos = [
+            'msft',
+            'speech_tokenizer',
+            'bill',
+        ];
+
+        // 对比模型的demo列表（显示所有模型）
+        const comparisonDemos = [
+            'harryPotter',
+            'steve_jobs',
+            'mooncast_0',
+            'mooncast_1', 
+            'mooncast_2',
+            'mooncast_3'
+        ];
+
+        // 创建VibePod专用demo项
+        function createVibePodDemoItem(demoName) {
+            const demoDiv = document.createElement('div');
+            demoDiv.className = 'demo-item';
+            demoDiv.innerHTML = `
+                <div class="demo-title">${getDemoDisplayTitle(demoName)}</div>
+                <div class="demo-content">
+                    <div class="left-panel">
+                        <div class="transcript-section">
+                            <h3>📝 Transcript</h3>
+                            <div class="transcript-content" id="transcript-${demoName}">
+                                <div class="loading">Loading transcript...</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-panel">
+                        <div class="prompts-section" id="prompts-${demoName}" style="display: none;">
+                            <h3>🎯 Prompts</h3>
+                            <div class="prompts-content"></div>
+                        </div>
+                        
+                        <div class="audio-section vibepod">
+                            <h3>VibePOD (Ours)</h3>
+                            <div class="audio-player">
+                                <audio controls>
+                                    <source src="data/demo/${demoName}/vibepod.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            return demoDiv;
+        }
+
+        // 创建对比demo项
+        function createComparisonDemoItem(demoName) {
+            const demoDiv = document.createElement('div');
+            demoDiv.className = 'demo-item';
+            demoDiv.innerHTML = `
+                <div class="demo-title">${getDemoDisplayTitle(demoName)}</div>
+                <div class="demo-content">
+                    <div class="left-panel">
+                        <div class="transcript-section">
+                            <h3>📝 Transcript</h3>
+                            <div class="transcript-content" id="transcript-${demoName}">
+                                <div class="loading">Loading transcript...</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-panel">
+                        <div class="prompts-section" id="prompts-${demoName}" style="display: none;">
+                            <h3>🎯 Prompts</h3>
+                            <div class="prompts-content"></div>
+                        </div>
+                        
+                        <div class="audio-section vibepod">
+                            <h3>VibePOD (Ours)</h3>
+                            <div class="audio-player">
+                                <audio controls>
+                                    <source src="data/demo/${demoName}/vibepod.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+
+                        <div class="audio-section mooncast">
+                            <h3>Mooncast</h3>
+                            <div class="audio-player">
+                                <audio controls>
+                                    <source src="data/demo/${demoName}/mooncast.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+
+                        <div class="audio-section cosyvoice">
+                            <h3>CosyVoice2</h3>
+                            <div class="audio-player">
+                                <audio controls>
+                                    <source src="data/demo/${demoName}/cosyvoice.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            return demoDiv;
+        }
+
+        // 加载单个demo的数据
+        async function loadDemoData(demoName) {
+            try {
+                const response = await fetch(`data/demo/${demoName}/${demoName}.json`);
+                if (!response.ok) throw new Error('Failed to load transcript');
+                
+                const data = await response.json();
+                
+                // 显示transcript
+                displayTranscript(demoName, data.transcript || []);
+                
+                // 显示prompts音频
+                displayPrompts(demoName, data.prompts || {});
+                
+            } catch (error) {
+                console.error(`Error loading demo ${demoName}:`, error);
+                document.getElementById(`transcript-${demoName}`).innerHTML = 
+                    '<div class="error">Error loading demo data.</div>';
+            }
+        }
+
+        // 显示transcript
+        function displayTranscript(demoName, transcript) {
+            const transcriptContent = document.getElementById(`transcript-${demoName}`);
+            
+            if (transcript.length === 0) {
+                transcriptContent.innerHTML = '<div class="loading">No transcript available</div>';
+                return;
+            }
+            
+            // 计算说话人数量并更新demo标题
+            const uniqueSpeakers = new Set(transcript.map(item => item.speaker));
+            const speakerCount = uniqueSpeakers.size;
+            
+            // 找到对应的demo标题并更新
+            const demoItem = transcriptContent.closest('.demo-item');
+            const demoTitleElement = demoItem.querySelector('.demo-title');
+            const originalTitle = getDemoDisplayTitle(demoName);
+            demoTitleElement.textContent = `${originalTitle} (${speakerCount} Speaker${speakerCount > 1 ? 's' : ''})`;
+            
+            transcriptContent.innerHTML = '';
+            
+            transcript.forEach((item, index) => {
+                const transcriptDiv = document.createElement('div');
+                transcriptDiv.className = `transcript-item speaker-${item.speaker}`;
+                transcriptDiv.innerHTML = `
+                    <span class="speaker-label">Speaker${parseInt(item.speaker) + 1}:</span> ${item.text}
+                `;
+                transcriptContent.appendChild(transcriptDiv);
+            });
+        }
+
+        // 显示prompts音频
+        function displayPrompts(demoName, prompts) {
+            const promptsSection = document.getElementById(`prompts-${demoName}`);
+            const promptsContent = promptsSection.querySelector('.prompts-content');
+            
+            if (Object.keys(prompts).length === 0) {
+                promptsSection.style.display = 'none';
+                return;
+            }
+            
+            promptsSection.style.display = 'block';
+            promptsContent.innerHTML = '';
+            
+            Object.entries(prompts).forEach(([id, prompt]) => {
+                const promptNum = parseInt(id) + 1;
+                const promptDiv = document.createElement('div');
+                promptDiv.className = 'prompt-audio';
+                promptDiv.innerHTML = `
+                    <h4>Prompt ${promptNum}</h4>
+                    <audio controls>
+                        <source src="data/demo/${demoName}/prompt_${promptNum}.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                `;
+                promptsContent.appendChild(promptDiv);
+            });
+        }
+
+        // 初始化所有demos
+        function initAllDemos() {
+            const vibepodGrid = document.getElementById('vibepodDemosGrid');
+            const comparisonGrid = document.getElementById('comparisonDemosGrid');
+            
+            // 初始化VibePod demos
+            vibepodDemos.forEach(demoName => {
+                const demoItem = createVibePodDemoItem(demoName);
+                vibepodGrid.appendChild(demoItem);
+                
+                // 加载demo数据
+                loadDemoData(demoName);
+            });
+
+            // 初始化对比demos
+            comparisonDemos.forEach(demoName => {
+                const demoItem = createComparisonDemoItem(demoName);
+                comparisonGrid.appendChild(demoItem);
+                
+                // 加载demo数据
+                loadDemoData(demoName);
+            });
+        }
+
+        // 页面加载时初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            initAllDemos();
+        });
+    </script>
+</body>
+</html> 

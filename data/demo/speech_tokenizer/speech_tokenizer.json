@@ -1,0 +1,61 @@
+{
+    "prompts": {
+        "0": {
+            "speaker": "0",
+            "text": "We're going to look at the dispensation of conscience some more, and we found our way to Genesis chapter 4 yesterday. We really brought ourselves all the way almost through the entire line of Cain. But if you look at the scriptures, Genesis 4, Genesis 5, you can see some things that are really remarkable, and they even get more remarkable as you go through Genesis 6.",
+            "speaker_ori": "1"
+        },
+        "1": {
+            "speaker": "1",
+            "text": "so the the three spiders um fengs feitan and nobunaga are with this guy that they harassed into helping them find the secret entrance they're still looking for the headquarters to highly and i like that there's like no segue whatsoever nobunaga just ended before the flashback on",
+            "speaker_ori": "2"
+        }
+    },
+    "transcript": [
+        {
+            "speaker": "0",
+            "text": "Alright, welcome back everyone to the podcast. Great to have you here.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, great to be here! So, today, I thought we could dive into something... uh... kinda fascinating, actually – speech tokenizers.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Speech tokenizers... okay, yeah, you hear that term thrown around. So, maybe just start basic – what exactly is a speech tokenizer?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, uh, fundamentally, right? A speech tokenizer... it's essentially a tool, maybe think of it as a model... that takes this continuous stream of... you know, spoken language... and breaks it down. It chops it up into smaller, sort of manageable units. And those units? We call them tokens.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Okay, tokens... got it. So, what kind of units are we talking about? Like, is it breaking it down into words? Or maybe something smaller, like... specific sounds?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah, it could actually be either, or even other things! It really, uh, depends on the specific system, you know? Some might break speech right down into phonemes – which are like the tiniest distinct sound units in a language. Think like the K sound or the A sound. Or, other systems might work with, yeah, whole words, or sometimes even short phrases.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Right, okay. That sounds... yeah, potentially super useful. But why bother? What's the, you know, the main point of doing that? What does it help with?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Oh, it's basically a cornerstone for things like, you know, speech recognition... or text-to-speech systems. All that voice tech. Because, see, by tokenizing the speech first, you're giving the machines... the AI... a way to actually, like, grab onto it and process it. Makes it much easier for them to understand, uh, what we're actually saying.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Ah, okay! So, is that kind of like... how my phone, or you know, my smart speaker, actually understands what I'm asking it... most of the time? Tokenization is happening under the hood there?",
+            "speaker_ori": "1"
+        }
+    ]
+}
