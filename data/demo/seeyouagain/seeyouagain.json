@@ -1,0 +1,84 @@
+{
+    "prompts": {
+        "0": {
+            "speaker": "0",
+            "text": "Smart cities use technology to improve urban living, enhance services, and reduce environmental impact."
+        },
+        "1": {
+            "speaker": "1",
+            "text": "What technologies are used in smart cities? How do they improve urban living? Can you give an example of a smart city initiative? "
+        }
+    },
+    "transcript": [
+        {
+            "speaker": "0",
+            "text": "Hey, remember See You Again?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Yeah… from Furious 7, right? That song always hits deep.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Let me try to sing a part of it for you.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "0",
+            "text": "It's been a long day… without you, my friend. And I'll tell you all about it when I see you again…",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "Wow… that line. Every time.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah, and then this part always makes me think of the people I've lost.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "0",
+            "text": "We've come a long way… from where we began. Oh, I'll tell you all about it when I see you again…",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "It’s beautiful, really. It’s not just sad—it’s like… hopeful.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Right? Like no matter how far apart we are, there’s still that promise.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "I think that’s what made it the perfect farewell for Paul Walker.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Yeah. And the rap verse? It hits differently too.",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "0",
+            "text": "How can we not talk about family, when family's all that we got?",
+            "speaker_ori": "1"
+        },
+        {
+            "speaker": "1",
+            "text": "That line’s deep. Makes you realize what really matters.",
+            "speaker_ori": "2"
+        },
+        {
+            "speaker": "0",
+            "text": "Exactly. It’s more than a song—it’s a tribute.",
+            "speaker_ori": "1"
+        }
+    ]
+}
